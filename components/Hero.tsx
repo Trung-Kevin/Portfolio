@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="w-40 h-40 mx-auto mb-8 rounded-full overflow-hidden bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center shadow-lg border-4 border-blue-500">
             <div className="relative w-full h-full">
               <Image
-                src="/images/profile.jpg"
+                src="/images/ảnh nền mệnh thủy.jpg"
                 alt={SITE_CONFIG.name}
                 fill
                 className="object-cover"
