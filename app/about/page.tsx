@@ -20,7 +20,7 @@ export default function About() {
               <p>
                 Trước khi trở thành lập trình viên, tôi đã có kinh nghiệm làm
                 việc trong lĩnh vực ẩm thực ({SITE_CONFIG.pastExperience}). Quá
-                trình này đã dạy tôi tính kỉ luật, sáng tạo và cách làm việc
+                trình này đã dạy tôi tính kỷ luật, sáng tạo và cách làm việc
                 dưới áp lực - những kỹ năng quý báu mà tôi vẫn áp dụng trong
                 công việc lập trình ngày hôm nay.
               </p>

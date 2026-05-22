@@ -30,7 +30,7 @@
 
 Quá trình này đã dạy cho bạn:
 
-- Tính kỉ luật
+- Tính kỷ luật
 - Sáng tạo trong công việc
 - Cách làm việc dưới áp lực
 - Những kỹ năng quý báu vẫn áp dụng trong lập trình
