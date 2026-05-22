@@ -3,8 +3,8 @@ export const SITE_CONFIG = {
   title: "Web Developer & Designer",
   description:
     "Portfolio cá nhân của Đặng Nguyễn Trung Kiên - Web Developer & Designer",
-  email: "kien@example.com",
-  phone: "+84 (0) 123 456 789",
+  email: "trungkien02005a@gmail.com",
+  phone: "0865890179",
   location: "Thành Phố Hồ Chí Minh, Việt Nam",
   birthDate: "24/10/2005",
   age: 18,
@@ -23,9 +23,21 @@ export const NAVIGATION = [
 ];
 
 export const SOCIAL_LINKS = [
-  { label: "Facebook", href: "https://facebook.com/yourprofile", icon: "📘" },
-  { label: "Gmail", href: "mailto:kien@example.com", icon: "✉️" },
-  { label: "GitHub", href: "https://github.com/yourusername", icon: "🐙" },
+  {
+    label: "Threads",
+    href: "https://www.threads.net/@yourusername",
+    icon: "🧵",
+  },
+  {
+    label: "TikTok",
+    href: "https://www.tiktok.com/@yourusername",
+    icon: "🎵",
+  },
+  {
+    label: "Facebook",
+    href: "https://facebook.com/yourprofile",
+    icon: "📘",
+  },
 ];
 
 export const SKILLS = {

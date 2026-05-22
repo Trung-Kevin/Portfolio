@@ -9,8 +9,8 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-primary border-b border-slate-800">
       <div className="container-custom flex items-center justify-between py-4">
-        <Link href="/" className="text-2xl font-bold text-blue-500">
-          KIÊN
+        <Link href="/" className="text-2xl font-bold text-white">
+          Trung Kevin
         </Link>
 
         {/* Desktop Menu */}
