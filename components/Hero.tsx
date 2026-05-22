@@ -24,11 +24,11 @@ export default function Hero() {
           </div>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 text-white drop-shadow-[0_2px_20px_rgba(0,0,0,0.45)]">
           {SITE_CONFIG.name}
         </h1>
 
-        <p className="text-xl md:text-2xl text-slate-400 mb-2">
+        <p className="text-xl md:text-2xl text-slate-200 mb-2">
           {SITE_CONFIG.title}
         </p>
 

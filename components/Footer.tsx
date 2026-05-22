@@ -9,15 +9,28 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold text-blue-500 mb-4">Liên Kết</h3>
-            <div className="flex gap-4">
-              <a href="#" className="hover:text-blue-500 transition-colors">
+            <div className="flex gap-4 flex-wrap">
+              <a
+                href="https://facebook.com/yourprofile"
+                className="hover:text-blue-500 transition-colors"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Facebook
+              </a>
+              <a
+                href="mailto:kien@example.com"
+                className="hover:text-blue-500 transition-colors"
+              >
+                Gmail
+              </a>
+              <a
+                href="https://github.com/yourusername"
+                className="hover:text-blue-500 transition-colors"
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub
-              </a>
-              <a href="#" className="hover:text-blue-500 transition-colors">
-                LinkedIn
-              </a>
-              <a href="#" className="hover:text-blue-500 transition-colors">
-                Twitter
               </a>
             </div>
           </div>

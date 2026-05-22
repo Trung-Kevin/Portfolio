@@ -1,7 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { SITE_CONFIG } from "@/lib/constants";
+import { SITE_CONFIG, SOCIAL_LINKS } from "@/lib/constants";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -87,25 +87,19 @@ export default function Contact() {
                 <h4 className="text-lg font-semibold text-white mb-4">
                   Mạng Xã Hội
                 </h4>
-                <div className="flex gap-4">
-                  <a
-                    href="#"
-                    className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
-                  >
-                    🐙
-                  </a>
-                  <a
-                    href="#"
-                    className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
-                  >
-                    💼
-                  </a>
-                  <a
-                    href="#"
-                    className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
-                  >
-                    𝕏
-                  </a>
+                <div className="flex gap-4 flex-wrap justify-center">
+                  {SOCIAL_LINKS.map((social) => (
+                    <a
+                      key={social.label}
+                      href={social.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      title={social.label}
+                      className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                    >
+                      <span className="text-2xl">{social.icon}</span>
+                    </a>
+                  ))}
                 </div>
               </div>
             </div>

@@ -23,10 +23,9 @@ export const NAVIGATION = [
 ];
 
 export const SOCIAL_LINKS = [
-  { label: "GitHub", href: "https://github.com", icon: "🐙" },
-  { label: "LinkedIn", href: "https://linkedin.com", icon: "💼" },
-  { label: "Twitter", href: "https://twitter.com", icon: "𝕏" },
-  { label: "Email", href: "mailto:kien@example.com", icon: "📧" },
+  { label: "Facebook", href: "https://facebook.com/yourprofile", icon: "📘" },
+  { label: "Gmail", href: "mailto:kien@example.com", icon: "✉️" },
+  { label: "GitHub", href: "https://github.com/yourusername", icon: "🐙" },
 ];
 
 export const SKILLS = {
