@@ -4,14 +4,14 @@ Một portfolio cá nhân hiện đại được xây dựng bằng Next.js, Typ
 
 ## Tính Năng
 
-- 🎨 **Giao Diện Hiện Đại**: Design tối ưu cho thiết bị di động và máy tính
-- ⚡ **Hiệu Suất Cao**: Tối ưu hóa SEO và tốc độ tải
-- 📱 **Responsive Design**: Hoạt động hoàn hảo trên tất cả các thiết bị
-- 🎯 **Các Phần Chính**:
-  - **Hero Section**: Giới thiệu cá nhân
-  - **Projects**: Trưng bày các dự án nổi bật
-  - **Skills**: Hiển thị kỹ năng và công nghệ
-  - **Contact**: Form liên hệ trực tiếp
+- **Giao Diện Hiện Đại**: Design tối ưu cho thiết bị di động và máy tính
+- **Hiệu Suất Cao**: Tối ưu hóa SEO và tốc độ tải
+- **Responsive Design**: Hoạt động hoàn hảo trên tất cả các thiết bị
+- **Các Phần Chính**:
+- **Hero Section**: Giới thiệu cá nhân
+- **Projects**: Trưng bày các dự án nổi bật
+- **Skills**: Hiển thị kỹ năng và công nghệ
+- **Contact**: Form liên hệ trực tiếp
 
 ## Công Nghệ Sử Dụng
 
